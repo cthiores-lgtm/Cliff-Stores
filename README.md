@@ -16,7 +16,7 @@ Aplikasi Product Catalog modern yang dibuat menggunakan React, Vite, Axios, dan 
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/product-catalog.git
+git clone https://github.com/username/.git
 ```
 
 ### 2. Masuk ke Folder Project
