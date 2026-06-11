@@ -1,16 +1,121 @@
-# React + Vite
+# 🛍️ ShopVerse - Product Catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi Product Catalog modern yang dibuat menggunakan React, Vite, Axios, dan Fake Store API. Aplikasi ini menampilkan daftar produk secara dinamis dengan fitur pencarian, filter kategori, sorting, pagination, detail produk, dan simulasi keranjang belanja.
 
-Currently, two official plugins are available:
+## 📌 Teknologi yang Digunakan
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* React JS
+* Vite
+* Axios
+* Fake Store API
+* React Toastify
+* CSS3
 
-## React Compiler
+## 🚀 Cara Menjalankan Aplikasi
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Clone Repository
 
-## Expanding the ESLint configuration
+```bash
+git clone https://github.com/username/product-catalog.git
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Masuk ke Folder Project
+
+```bash
+cd product-catalog
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Jalankan Development Server
+
+```bash
+npm run dev
+```
+
+### 5. Buka Browser
+
+```text
+http://localhost:5173
+```
+
+## ✨ Fitur yang Diimplementasikan
+
+### 1. Product List
+
+Menampilkan seluruh produk yang diperoleh dari Fake Store API.
+
+### 2. Loading Indicator
+
+Menampilkan indikator loading saat data sedang diambil dari API.
+
+### 3. Error Handling
+
+Menampilkan pesan error apabila proses pengambilan data gagal.
+
+### 4. Search Product
+
+Mencari produk berdasarkan judul produk secara real-time.
+
+### 5. Category Filter
+
+Memfilter produk berdasarkan kategori yang tersedia pada API.
+
+### 6. Product Detail Modal
+
+Menampilkan informasi detail produk dalam bentuk modal popup.
+
+### 7. Responsive Grid Layout
+
+Menampilkan produk dalam layout responsif:
+
+* Desktop: 4 kolom
+* Tablet: 2 kolom
+* Mobile: 1 kolom
+
+### 8. Sorting Harga
+
+Mengurutkan produk berdasarkan harga:
+
+* Harga termurah ke termahal
+* Harga termahal ke termurah
+
+### 9. Pagination
+
+Menampilkan produk per halaman untuk meningkatkan kenyamanan pengguna.
+
+### 10. Add To Cart
+
+Simulasi penambahan produk ke keranjang belanja dengan notifikasi toast.
+
+### 11. Rating Filter
+
+Memfilter produk berdasarkan rating minimum yang dipilih pengguna.
+
+## 🔗 API yang Digunakan
+
+Fake Store API
+
+Endpoint:
+
+```text
+GET https://fakestoreapi.com/products
+GET https://fakestoreapi.com/products/categories
+GET https://fakestoreapi.com/products/category/{category}
+```
+
+## 👨‍💻 Author
+
+Nama: Renal D.s
+
+Program Studi: Informatika
+
+Mata Kuliah: Pemrograman Web / React JS
+
+## 📂 Repository
+
+https://github.com/username/product-catalog
