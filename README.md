@@ -1,8 +1,8 @@
-# 🛍️ ShopVerse - Product Catalog
+#  ShopVerse - Product Catalog
 
 Aplikasi Product Catalog modern yang dibuat menggunakan React, Vite, Axios, dan Fake Store API. Aplikasi ini menampilkan daftar produk secara dinamis dengan fitur pencarian, filter kategori, sorting, pagination, detail produk, dan simulasi keranjang belanja.
 
-## 📌 Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 
 * React JS
 * Vite
@@ -11,7 +11,7 @@ Aplikasi Product Catalog modern yang dibuat menggunakan React, Vite, Axios, dan 
 * React Toastify
 * CSS3
 
-## 🚀 Cara Menjalankan Aplikasi
+##  Cara Menjalankan Aplikasi
 
 ### 1. Clone Repository
 
@@ -43,7 +43,7 @@ npm run dev
 http://localhost:5173
 ```
 
-## ✨ Fitur yang Diimplementasikan
+##  Fitur yang Diimplementasikan
 
 ### 1. Product List
 
@@ -108,14 +108,14 @@ GET https://fakestoreapi.com/products/categories
 GET https://fakestoreapi.com/products/category/{category}
 ```
 
-## 👨‍💻 Author
+##  Author
 
-Nama: Renal D.s
+Nama: Cliff Edward Po Thiores
 
 Program Studi: Informatika
 
 Mata Kuliah: Pemrograman Web / React JS
 
-## 📂 Repository
+## Repository
 
 https://github.com/username/product-catalog
